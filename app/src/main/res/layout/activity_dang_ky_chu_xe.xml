@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangKyChuXeActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ĐĂNG KÝ CHỦ XE"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/adamina"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông tin tài khoản :"
+                android:textSize="14dp"
+                android:fontFamily="@font/bungee"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/edtEmail_ChuXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_email"
+                android:hint="Địa chỉ email"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/edtMatKhau_ChuXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Mật khẩu"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_pass"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/edtXacNhanMatKhau_ChuXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Nhập lại mật khẩu"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_pass"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"/>
+            <EditText
+                android:id="@+id/edtTenHienThi_ChuXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_user"
+                android:hint="Tên hiển thị"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="Thông tin cá nhân :"
+                android:fontFamily="@font/bungee"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/edtHoTen_ChuXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_user"
+                android:hint="Họ tên"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/edtNgaySinh_ChuXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_calendar"
+                android:hint="Ngày sinh"
+                android:drawablePadding="20dp"/>
+
+            <EditText
+                android:id="@+id/edtSDT_ChuXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_phone"
+                android:hint="Số điện thoại"
+                android:drawablePadding="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="Bạn muốn cho thuê xe hay trở thành tài xế?"
+                android:fontFamily="@font/adamina"
+                android:textStyle="italic"
+                android:textColor="#0000FF"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp">
+
+                <RadioButton
+                    android:id="@+id/radChiChoThue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chỉ cho thuê xe"/>
+                <RadioButton
+                    android:id="@+id/radTroThanhTaiXe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cho thuê xe đồng thời trở thành tài xế"/>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chkDongY_ChuXe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Tôi đã đọc và đồng ý với " />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/txtChinhSach_ChuXe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Chính sách của NAT"
+                    android:textStyle="italic"
+                    android:textColor="#0000FF"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnDangKyThanhVien_ChuXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng ký"
+                android:textAllCaps="false"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#008000"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

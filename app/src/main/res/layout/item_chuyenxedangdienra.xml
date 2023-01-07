@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày đặt xe:"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/adamina"/>
+        <TextView
+            android:id="@+id/txtNgayDatXe_Chuyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày kết thúc:"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/adamina"/>
+        <TextView
+            android:id="@+id/txtNgayKetThuc_Chuyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng thanh toán:"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/adamina"/>
+        <TextView
+            android:id="@+id/txtTongThanhToan_Chuyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hình thức thanh toán:"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/adamina"/>
+        <TextView
+            android:id="@+id/txtHinhThucThanhToan_Chuyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

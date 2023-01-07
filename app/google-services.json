@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "164465684777",
+    "firebase_url": "https://appthuexe2-default-rtdb.firebaseio.com",
+    "project_id": "appthuexe2",
+    "storage_bucket": "appthuexe2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164465684777:android:a9d5482716936d62bf4738",
+        "android_client_info": {
+          "package_name": "com.nguyenanhtuyen.appthuexe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164465684777-1bl0r9deqf53kflve2tu9n2mhhr0m55t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nguyenanhtuyen.appthuexe",
+            "certificate_hash": "43d64e1e5b3d34e643d556d3f10fd587e8271ff8"
+          }
+        },
+        {
+          "client_id": "164465684777-n9lq82fi821khet0eurikhsg4sg4auro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABrD6v5QkojXHZFkK-x0JE-wTka7vqBmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164465684777-n9lq82fi821khet0eurikhsg4sg4auro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

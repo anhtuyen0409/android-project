@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangNhapActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        app:srcCompat="@drawable/login" />
+
+    <EditText
+        android:id="@+id/edtNhapEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:layout_marginTop="20dp"
+        android:hint="Số điện thoại hoặc email"
+        android:drawablePadding="20dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edtNhapMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_pass"
+        android:layout_marginTop="10dp"
+        android:hint="Mật khẩu"
+        android:drawablePadding="20dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="đăng nhập"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/txtQuenMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu?"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+</LinearLayout>

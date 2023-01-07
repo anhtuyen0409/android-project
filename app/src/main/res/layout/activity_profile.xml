@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        app:srcCompat="@drawable/login" />
+
+    <EditText
+        android:id="@+id/edtDangNhapBangEmailHoacSDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_email2"
+        android:drawablePadding="20dp"
+        android:text="Số điện thoại hoặc email"
+        android:cursorVisible="false"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Hoặc đăng nhập từ" />
+
+    <Button
+        android:id="@+id/btnDangNhapBangFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập với tài khoản Facebook"
+        android:textAllCaps="false"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_facebook"
+        />
+
+    <Button
+        android:id="@+id/btnDangNhapBangGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_google"
+        android:text="Đăng nhập với tài khoản Google"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn chưa có tài khoản?"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#008000"
+        android:text="Đăng ký tài khoản"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Với việc đăng nhập, bạn đồng ý với"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chính sách và quy định của NAT"
+        android:gravity="center"
+        android:textColor="#00BB00"/>
+
+
+</LinearLayout>
