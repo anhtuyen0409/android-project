@@ -20,15 +20,14 @@ Công nghệ sử dụng:
 
 ## **Danh sách xe tự lái và xe có tài xế**
 
+•	Người dùng có thể xem danh sách xe tự lái và xe có tài xế
+
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/list_car.jpg)
+
+## **Màn hình Filter**
+
+•	Chức năng tìm kiếm theo tên, giá, loại xe...
+
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/filter.jpg)
-
-## **Trang Admin**
-
-•	Admin có nhiệm vụ quản lý tài khoản, thông tin nhân viên, khuyến mãi, thống kê doanh thu
-
-•	Chức năng: Thêm, sửa, xoá, tìm kiếm,...
-
-![Giao diện admin](https://github.com/anhtuyen0409/java-project-final/blob/main/media/admin.JPG)
 
 
