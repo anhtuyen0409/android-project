@@ -32,7 +32,24 @@ Công nghệ sử dụng:
 
 ## **Màn hình đặt xe**
 
+•	Sau khi chọn xe, người dùng có thể đặt thuê xe
+
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/booking.jpg)
 
-![](https://github.com/anhtuyen0409/android-project/blob/main/media/booking2.JPG)
+## **Màn hình thông báo**
 
+•	Khi người dùng đặt xe, hệ thống sẽ gửi thông báo đến cho chủ xe
+
+![](https://github.com/anhtuyen0409/android-project/blob/main/media/notification.jpg)
+
+## **Màn hình đăng ký chủ xe**
+
+•	Để có thể đăng xe cho thuê, người dùng cần đăng ký trở thành chủ xe
+
+![](https://github.com/anhtuyen0409/android-project/blob/main/media/register_owner.jpg)
+
+## **Màn hình đăng ký xe cho thuê**
+
+•	Chủ xe có thể đăng xe của mình lên app để cho thuê bằng cách upload ảnh xe, thêm các thông tin về xe...
+
+![](https://github.com/anhtuyen0409/android-project/blob/main/media/register_owner2.jpg)
