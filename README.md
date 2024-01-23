@@ -6,7 +6,7 @@ Công nghệ sử dụng:
 -   Back-end: ASP.NET Web APIs - SQL Server - Firebase - Entity Framework
 ## **Đăng nhập - Đăng ký người dùng**
 
-![Giao diện đăng nhập - Đăng ký](media/login_register.JPG)
+![Giao diện đăng nhập - Đăng ký](https://github.com/anhtuyen0409/android-project/media/login_register.JPG)
 
 ## **Quản lý kho**
 
