@@ -18,14 +18,10 @@ Công nghệ sử dụng:
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/menu.JPG)
 
-## **Quản lý bán hàng**
+## **Danh sách xe tự lái và xe có tài xế**
 
-•	Nhân viên bán hàng có nhiệm vụ quản lý thông tin đơn đặt hàng và khách hàng
-
-•	Chức năng: Thêm, sửa, xoá, tìm kiếm,...
-
-![Giao diện quản ký bán hàng](https://github.com/anhtuyen0409/java-project-final/blob/main/media/banhang.JPG)
-
+![](https://github.com/anhtuyen0409/android-project/blob/main/media/list_car.jpg)
+![](https://github.com/anhtuyen0409/android-project/blob/main/media/filter.jpg)
 
 ## **Trang Admin**
 
