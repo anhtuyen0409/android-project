@@ -6,15 +6,17 @@ Công nghệ sử dụng:
 -   Back-end: ASP.NET Web APIs - SQL Server - Firebase - Entity Framework
 ## **Đăng nhập - Đăng ký người dùng**
 
+•	Để sử dụng app người dùng cần đăng ký tài khoản mới (nếu chưa có tài khoản) và đăng nhập
+
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/login_register.jpg)
 
-## **Quản lý kho**
+## **Màn hình chính**
 
-•	Nhân viên quản lý kho có nhiệm vụ quản lý thông tin sản phẩm, phiếu nhập và nguồn cung ứng
+•	Màn hình chính hiển thị 2 mục cho người dùng lựa chọn: thuê xe tự lái và thuê xe có tài xế
 
-•	Chức năng: Thêm, sửa, xoá, tìm kiếm,...
+•	Hiển thị danh sách xe tự lái giá rẻ, xe có tài xế mới nhất, các chính sách,...
 
-![Giao diện quản lý kho](https://github.com/anhtuyen0409/java-project-final/blob/main/media/kho.JPG)
+![](https://github.com/anhtuyen0409/android-project/blob/main/media/menu.JPG)
 
 ## **Quản lý bán hàng**
 
