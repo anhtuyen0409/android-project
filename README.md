@@ -4,7 +4,7 @@ Công nghệ sử dụng:
 
 -   Front-end: Java Android SDK 
 -   Back-end: ASP.NET Web APIs - SQL Server - Firebase - Entity Framework
-## **Màn hình đăng nhập - Đăng ký người dùng**
+## **Đăng nhập - Đăng ký người dùng**
 
 •	Để sử dụng app người dùng cần đăng ký tài khoản mới (nếu chưa có tài khoản) và đăng nhập
 
@@ -18,7 +18,7 @@ Công nghệ sử dụng:
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/menu.JPG)
 
-## **Màn hình danh sách xe tự lái và xe có tài xế**
+## **Danh sách xe tự lái và xe có tài xế**
 
 •	Người dùng có thể xem danh sách xe tự lái và xe có tài xế
 
