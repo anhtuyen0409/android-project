@@ -48,8 +48,8 @@ Technologies Used:
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/register_owner.jpg)
 
-## **Màn hình đăng ký xe cho thuê**
+## **Rental car registration screen**
 
-•	Chủ xe có thể đăng xe của mình lên app để cho thuê bằng cách upload ảnh xe, thêm các thông tin về xe...
+•	Car owners can list their cars on the app by uploading photos and providing car details
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/register_owner2.jpg)
