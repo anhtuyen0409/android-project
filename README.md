@@ -1,50 +1,50 @@
-# Ứng dụng cho thuê xe
+# Car Rental App
 
-Công nghệ sử dụng:
+Technologies Used:
 
 -   Front-end: Java Android SDK 
--   Back-end: ASP.NET Web APIs - SQL Server - Firebase - Entity Framework
-## **Đăng nhập - Đăng ký người dùng**
+-   Back-end: ASP.NET Web APIs - SQL Server - Firebase - Entity Framework - Google Maps API
+## **User Registration and Login**
 
-•	Để sử dụng app người dùng cần đăng ký tài khoản mới (nếu chưa có tài khoản) và đăng nhập
+•	Users need to register for a new account (if they do not already have one) and log in to use the app
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/login_register.jpg)
 
-## **Màn hình chính**
+## **Home Screen**
 
-•	Màn hình chính hiển thị 2 mục cho người dùng lựa chọn: thuê xe tự lái và thuê xe có tài xế
+•	The home screen displays two options for users: self-drive car rental and chauffeur-driven car rental
 
-•	Hiển thị danh sách xe tự lái giá rẻ, xe có tài xế mới nhất, các chính sách,...
+•	It showcases a list of affordable self-drive cars, the latest chauffeur-driven cars, policies, etc
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/menu.JPG)
 
-## **Danh sách xe tự lái và xe có tài xế**
+## **Car Listings: Self-Drive and Chauffeur-Driven**
 
-•	Người dùng có thể xem danh sách xe tự lái và xe có tài xế
+•	Users can view the list of available self-drive cars and chauffeur-driven cars
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/list_car.jpg)
 
-## **Màn hình Filter**
+## **Filter Screen**
 
-•	Chức năng tìm kiếm theo tên, giá, loại xe...
+•	Features search functionality by name, price, car type, and more
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/filter.jpg)
 
-## **Màn hình đặt xe**
+## **Car Booking Screen**
 
-•	Sau khi chọn xe, người dùng có thể đặt thuê xe
+•	After selecting a car, users can proceed to book the rental
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/booking.jpg)
 
-## **Màn hình thông báo**
+## **Notification Screen**
 
-•	Khi người dùng đặt xe, hệ thống sẽ gửi thông báo đến cho chủ xe
+•	When a user books a car, the system sends a notification to the car owner
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/notification.jpg)
 
-## **Màn hình đăng ký chủ xe**
+## **Car Owner Registration Screen**
 
-•	Để có thể đăng xe cho thuê, người dùng cần đăng ký trở thành chủ xe
+•	To list cars for rent, users need to register as car owners
 
 ![](https://github.com/anhtuyen0409/android-project/blob/main/media/register_owner.jpg)
 
